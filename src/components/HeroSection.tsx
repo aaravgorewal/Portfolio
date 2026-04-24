@@ -29,7 +29,7 @@ export default function HeroSection() {
           </h1>
 
           <p className="text-[16px] md:text-[18px] text-[var(--color-text-secondary)] max-w-[500px] leading-relaxed mb-8">
-            <span className="text-white font-medium">AI & ML Student</span> | <span className="text-white font-medium">4× Hackathon Winner</span> | Focused on real-world applications
+            <span className="text-white font-medium">AI & ML Student</span> | <span className="text-white font-medium">6× Hackathon Winner</span> | Focused on real-world applications
           </p>
 
           <div className="flex items-center gap-2 text-sm font-mono text-[var(--color-text-secondary)] opacity-80 bg-[#0F172A]/50 w-fit px-3 py-2 rounded-md border border-[#1E293B] mb-10">
@@ -51,43 +51,43 @@ export default function HeroSection() {
           <div className="mt-8 flex flex-col items-center md:items-start">
             <p className="text-sm text-neutral-400 mb-4">Connect with me</p>
             <div className="flex items-center justify-center gap-4">
-              <a 
-                href="https://github.com/aaravgorewal" 
-                target="_blank" 
+              <a
+                href="https://github.com/aaravgorewal"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="group p-2 rounded-md border border-neutral-700 hover:border-white hover:bg-white/10 transition"
               >
                 <GithubIcon className="w-5 h-5 group-hover:scale-110 transition" />
               </a>
 
-              <a 
-                href="https://linkedin.com/in/aaravgorewal" 
-                target="_blank" 
+              <a
+                href="https://linkedin.com/in/aaravgorewal"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="group p-2 rounded-md border border-neutral-700 hover:border-blue-400 hover:bg-blue-400/10 transition"
               >
                 <LinkedinIcon className="w-5 h-5 group-hover:scale-110 transition" />
               </a>
 
-              <a 
-                href="https://instagram.com/aaravgorewal1" 
-                target="_blank" 
+              <a
+                href="https://instagram.com/aaravgorewal1"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="group p-2 rounded-md border border-neutral-700 hover:border-pink-400 hover:bg-pink-400/10 transition"
               >
                 <InstagramIcon className="w-5 h-5 group-hover:scale-110 transition" />
               </a>
 
-              <a 
-                href="https://twitter.com/aaravgorewal" 
-                target="_blank" 
+              <a
+                href="https://twitter.com/aaravgorewal"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="group p-2 rounded-md border border-neutral-700 hover:border-sky-400 hover:bg-sky-400/10 transition"
               >
                 <TwitterIcon className="w-5 h-5 group-hover:scale-110 transition" />
               </a>
 
-              <a 
+              <a
                 href="mailto:sainiaarav331@gmail.com"
                 className="group p-2 rounded-md border border-neutral-700 hover:border-green-400 hover:bg-green-400/10 transition"
               >

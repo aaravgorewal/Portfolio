@@ -12,7 +12,7 @@ const achievements = [
   },
   {
     icon: <Award size={24} />,
-    title: "10+ Hackathons Participated",
+    title: "15+ Hackathons Participated",
     description: "Extensive experience in rapid prototyping and high-pressure development.",
     color: "var(--color-accent-purple)"
   },
@@ -48,7 +48,7 @@ export default function AchievementsSection() {
             transition={{ duration: 0.5, delay: index * 0.1 }}
             className="card-bg p-6 rounded-xl border border-[#1E293B] hover:border-[var(--color-accent-blue)] hover:shadow-[0_0_20px_rgba(59,130,246,0.1)] transition-all flex flex-col gap-4 group"
           >
-            <div 
+            <div
               className="w-12 h-12 rounded-lg flex items-center justify-center bg-[#0F172A] border border-[#1E293B] group-hover:scale-110 transition-transform"
               style={{ color: item.color }}
             >
