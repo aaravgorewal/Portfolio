@@ -6,7 +6,7 @@ import { Award, Trophy, Cpu, Globe } from "lucide-react";
 const achievements = [
   {
     icon: <Trophy size={24} />,
-    title: "4× Hackathon Winner",
+    title: "6× Hackathon Winner",
     description: "Consistent top-tier performance in national and global tech competitions.",
     color: "var(--color-accent-blue)"
   },
