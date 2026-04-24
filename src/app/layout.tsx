@@ -3,6 +3,7 @@ import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import CustomCursor from "@/components/CustomCursor";
+import FloatingMusicPlayer from "@/components/MusicPlayer";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const poppins = Poppins({ 
@@ -29,6 +30,7 @@ export default function RootLayout({
         <CustomCursor />
         <Navbar />
         {children}
+        <FloatingMusicPlayer />
       </body>
     </html>
   );
